@@ -10,7 +10,7 @@ public class TransportasiAir{
     }
 
     public void informasi(){
-        System.out.println("Tranportasi Air jenis ini tidak diketahui dengan kursi berjumlah" + jumlahKursi+ " ditetapkan dengan biaya sebesar Rp." + biaya + "");
+        System.out.println("Tranportasi Air jenis ini tidak diketahui dengan kursi berjumlah " + jumlahKursi+ " ditetapkan dengan biaya sebesar Rp." + biaya + "");
 
     }
 
