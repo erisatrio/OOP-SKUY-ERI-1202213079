@@ -10,10 +10,10 @@ public class Laptop extends Perangkat{
 
     public void informasi(){
         if (this.webcam == true) {
-            System.out.println("Perangkat ini tidak diketahui memiliki drive tipe " + drive + " dengan ram sebesar " + ram + " dan processor secepat " + processor + " Ghz. Selain itu laptop ini juga memiliki webcam");
+            System.out.println("Laptop ini tidak diketahui memiliki drive tipe " + drive + " dengan ram sebesar " + ram + " dan processor secepat " + processor + " Ghz. Selain itu laptop ini juga memiliki webcam");
 
         }else{
-            System.out.println("Perangkat ini tidak diketahui memiliki drive tipe " + drive + " dengan ram sebesar " + ram + " dan processor secepat " + processor + " Ghz. Selain itu laptop ini juga TIDAK memiliki webcam");
+            System.out.println("laptop ini tidak diketahui memiliki drive tipe " + drive + " dengan ram sebesar " + ram + " dan processor secepat " + processor + " Ghz. Selain itu laptop ini juga TIDAK memiliki webcam");
         }
     }
 
